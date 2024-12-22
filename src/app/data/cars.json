@@ -1,0 +1,74 @@
+
+{
+  "type": [
+   "Sport",
+   "SUV",
+   "MPV",
+   "Sedan",
+   "Coupe",
+   "Hatchback"
+  ],
+  "capacity": [
+   "2 Person",
+   "4 Person",
+   "6 Person",
+   "8 or More"
+  ],
+  "price": [
+   "Max. $100.00"
+  ],
+  "reviews": [
+   {
+    "name": "Alex Stanton",
+    "title": "CEO at Bukalapak",
+    "date": "21 July 2022",
+    "rating": 5,
+    "text": "We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite."
+   },
+   {
+    "name": "Skylar Dias",
+    "title": "CEO at Amazon",
+    "date": "20 July 2022",
+    "rating": 4,
+    "text": "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite."
+   }
+  ],
+  "recent_cars": [
+   {
+    "name": "Koenigsegg",
+    "type": "Sport",
+    "image": "https://www.morent.com/car/image/koenigsegg.jpg",
+    "price": "99.00",
+    "fuel": "90L",
+    "transmission": "Manual",
+    "capacity": "2 People"
+   },
+   {
+    "name": "Nissan GT-R",
+    "type": "Sport",
+    "image": "https://www.morent.com/car/image/nissan-gt-r.jpg",
+    "price": "80.00",
+    "fuel": "80L",
+    "transmission": "Manual",
+    "capacity": "2 People"
+   },
+   {
+    "name": "Rolls-Royce",
+  "type": "Sedan",
+    "image": "https://www.morent.com/car/image/rolls-royce.jpg",
+    "price": "150.00",
+    "fuel": "100L",
+    "transmission": "Automatic",
+    "capacity": "4 People"
+   },
+   {
+    "name": "Toyota Land Cruiser",
+    "type": "SUV",
+    "image": "https://www.morent.com/car/image/toyota-land-cruiser.jpg",
+    "price": "120.00",
+    "fuel": "90L",
+    "transmission": "Automatic",
+    "capacity": "6 People"
+   }
+  ]
+ }

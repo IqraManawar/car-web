@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Car list styles */
+  .car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .car-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .car-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .car-item h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .car-item p {
+    font-size: 0.9rem;
+    margin: 4px 0;
+  }
+  
+  /* Car details section */
+  .car-details {
+    padding: 16px;
+    background-color: #f0f0f0;
+    margin-top: 24px;
+    border-radius: 8px;
+  }
+  
+  .car-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .car-details p {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+  
+  .car-details h3 {
+    margin-top: 16px;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .car-item h2 {
+      font-size: 1rem;
+    }
+  
+    .car-item p {
+      font-size: 0.8rem;
+    }
+  
+    .car-details h2 {
+      font-size: 1.2rem;
+    }
+  
+    .car-details p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .car-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .car-item h2 {
+      font-size: 1rem;
+    }
+  
+    .car-item p {
+      font-size: 0.8rem;
+    }
+  
+    .car-details h2 {
+      font-size: 1rem;
+    }
+  
+    .car-details p {
+      font-size: 0.85rem;
+    }
+  }
+  
